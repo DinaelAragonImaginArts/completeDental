@@ -1,0 +1,14 @@
+.contenedor{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap:  0.2rem;
+    filter: drop-shadow(0 0 1px var(--oscuro))
+}
+
+.parrafos{
+    font-size: 1.8rem!important;
+}

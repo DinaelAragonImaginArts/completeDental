@@ -1,0 +1,26 @@
+.accordionContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 5rem auto;
+}
+
+.accordionContainer h3{
+    font-size: 2.4rem;
+}
+
+.banner {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4.2rem;
+    font-weight: 800;
+    color: var(--azul);
+    text-transform: uppercase;
+    text-align: center;
+}
+

@@ -1,0 +1,52 @@
+
+.contacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin:5rem auto;
+    flex-wrap: wrap;
+}
+
+.contactoInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contactoInfo h4 {
+    font-size: 3rem;
+    color: var(--azul)
+}
+
+.contactoInfo p, a {
+    display: flex;
+    align-items: center;
+    font-size: 1.8rem;
+    gap: 3rem;
+    color: var(--azul);
+}
+
+.svg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.5rem;
+}
+
+.mapaContainer{
+    display: block;
+}
+
+@media (min-width: 768px) {
+    .contacto{
+        justify-content: space-between;
+    }
+
+    .contactoInfo{
+        width: 55%;
+    }
+    .mapaContainer{
+        width: 45%;
+    }
+}

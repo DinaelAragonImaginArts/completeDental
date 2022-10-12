@@ -1,0 +1,163 @@
+.visitanos {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    min-height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.visitanos p {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.visitanos h3 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.agenda {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: var(--oscuro);
+    color: #fff;
+    padding: 40px;
+}
+
+.text,
+.text a {
+    font-size: 1.8rem;
+    color: #fff;
+}
+
+.text p {
+    padding-top: 1.5rem;
+}
+
+.text h4 {
+    font-size: 2.2rem;
+    font-weight: 500;
+}
+
+.text a {
+    text-transform: lowercase;
+    display: inline;
+}
+
+.text h2 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 5px #292929;
+    border-radius: .5rem;
+    color: var(--oscuro);
+    width: 80%;
+    margin: 0 auto;
+}
+
+.imagen {
+    width: 350px;
+}
+
+.textImg {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 5rem;
+    align-items: center;
+    font-size: 2rem;
+}
+
+
+.agendanos {
+    color: var(--claro);
+    font-size: 1.7rem;
+}
+
+.agendanos a {
+    color: var(--claro);
+    text-transform: lowercase;
+    font-weight: 400;
+    letter-spacing: 1px;
+    border-bottom: 1px solid var(--claro);
+    padding-left: 5px;
+    display: inline;
+}
+
+@media (min-width: 768px) {
+    .imagen {
+        width: 400px;
+    }
+}
+
+.info {
+    background-color: #fffffe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 65vh;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.info h3 {
+    font-size: 2.2rem;
+}
+
+.cartas_blog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.cardBlog {
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.6);
+    height: 480px;
+}
+
+.img {
+    width: 320px;
+    height: 240px;
+    padding: 0;
+}
+
+.img img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    object-fit: cover;
+}
+
+.texto_card {
+    width: 320px;
+    padding: 5px 20px;
+    text-transform: none;
+}
+
+.texto_card h4 {
+    font-size: 2.5rem;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.texto_card p {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+
+}

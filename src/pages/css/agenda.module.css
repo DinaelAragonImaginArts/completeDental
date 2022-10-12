@@ -1,0 +1,156 @@
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    font-size: 1.5rem;
+    flex-direction: column;
+}
+
+.title{
+    width: 100%;
+    text-align: center;
+    padding: 3rem 0;
+    color: var(--oscuro);
+    
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+
+.primerContenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+
+.primerContenedor input {
+    padding: 1rem 5rem 1rem 0.5rem;
+    border: 2px solid var(--cafe);
+    width: 350px;
+
+}
+
+.servicio {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.servicio label {
+    font-weight: 600;
+    font-size: 1.7rem;
+    padding: 0 0 0 0.5rem;
+}
+
+.servicio textarea {
+    width: 100%;
+    border: 2px solid var(--cafe);
+
+}
+
+.full {
+    width: 100%;
+}
+
+.full input {
+    width: 100%;
+    border: 2px solid var(--cafe);
+    padding: 1rem 0.5rem;
+
+}
+
+.select {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.select label {
+    font-size: 1.7rem;
+    font-weight: 600;
+    padding: 0 0 0 0.5rem;
+}
+
+.select select {
+    padding: 1rem 0.5rem;
+    width: 100%;
+    border: 2px solid var(--cafe);
+
+}
+
+.fecha {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 2rem;
+    margin-bottom: 7rem;
+}
+
+.fecha label {
+    font-size: 1.7rem;
+    font-weight: 600;
+    padding: 0 0 0 0.5rem;
+}
+
+.inputFechas {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.inputFechas input {
+    width: 80%;
+    border: 2px solid var(--cafe);
+    padding: 1rem 0.5rem;
+
+}
+
+.inputFechas select {
+    width: 15%;
+    border: 2px solid var(--cafe);
+    padding: 1rem 0.5rem;
+
+}
+
+.contenedor input:focus,
+.contenedor textarea:focus,
+.contenedor select:focus{
+    outline: 1px solid var(--cafe);
+}
+
+
+.fecha p{
+    width: 350px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 1.8rem;
+    padding: 2rem 0;
+}
+.fecha p:nth-child(3){
+    color: #f00;
+    padding: 0;
+}
+
+@media (min-width: 768px) {
+    .fecha p{
+        width: 700px;
+    }    
+}

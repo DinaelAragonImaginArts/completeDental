@@ -1,0 +1,89 @@
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.doctor {
+    width: 100%;
+    min-height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 2rem 0;
+}
+
+.doctor2 {
+    width: 100%;
+    min-height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 2rem 0;
+}
+
+.contenido {
+    max-width: 300px;
+    font-size: 1.5rem;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 2rem;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenido h3 {
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.enlaces{
+    max-width: 300px;
+    text-align: center;
+}
+.enlaces2{
+    max-width: 300px;
+    text-align: center;
+}
+
+
+
+@media (min-width: 768px) {
+    .doctor{
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-start;
+    }
+    .doctor2 {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    
+    .contenido {
+        max-width: 750px;
+        font-size: 2rem;
+        background-color: transparent;
+        padding: 2rem;
+        font-weight: 500;
+        gap: 2rem;
+    }
+
+    .contenido h3 {
+        text-align: center;
+        font-size: 2.5rem;
+        font-weight: 600;
+    }
+    .enlaces{
+        margin: 2rem 0;
+        align-self: flex-end;
+    }
+    .enlaces2{
+        margin: 2rem 0;
+        align-self: flex-start;
+    }
+
+}

@@ -1,0 +1,98 @@
+@import url(https://fonts.googleapis.com/css?family=Urbanist:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+:root {
+  --claro: #f2e4bb;
+  --cafe: #d9c6b0;
+  --azul: #1c2140;
+  --oscuro: #0f1140;
+  --font: 'Urbanist', sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  font-family: var(--font);
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.enlace {
+  background-color: var(--azul);
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  color: #fff;
+  font-weight: 900;
+  transition: all 0.5s;
+  width: 100%;
+}
+
+.enlace:hover {
+  background-color: var(--claro);
+  color: var(--oscuro);
+}
+
+
+@media (min-width: 768px) {
+  .enlace {
+    background-color: var(--azul);
+    padding: 1rem 5rem;
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 900;
+    transition: all 0.5s;
+  }
+
+}
+
+.mapa {
+  padding: 20px;
+  border: none;
+  filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.6));
+}
+
+.blog {
+  margin-top: 3rem;
+}
+
+.blog h3 {
+  display: none;
+}
+
+.aviso {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  font-size: 1.8rem;
+  color: var(--azul);
+  text-align: justify;
+}
+
+.mailto{
+  text-transform: lowercase;
+  color: var(--oscuro);
+  font-weight: 600;
+  font-size: 1.7rem;
+  padding: 3rem 0;
+}
+
+@media (min-width: 768px) {
+  .aviso {
+    width: 80%;
+    padding: 6rem 2rem;
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,27 @@
+.postContent{
+    min-height: 60vh;
+    font-size: 1.5rem;
+    padding: 2rem;
+}
+.postContent h2{
+    text-align: center;
+    color: var(--azul);
+    font-size: 3rem;
+    font-weight: 600;
+    padding: 3rem 0;
+}
+
+.postContent p{
+    text-align: justify;
+    white-space: pre-wrap;
+    font-size: 1.8rem;
+    color: var(--azul);
+}
+
+
+@media (min-width: 768px){
+    .postContent{
+        width: 80%;
+        margin: 3rem auto 0 auto;
+    }
+}
